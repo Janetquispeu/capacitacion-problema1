@@ -3,3 +3,4 @@ Capacitación: Git, bash y docker
 Integrantes:
 - Janet Quispe
 - Erik Flores
+- Luis Sanchez
