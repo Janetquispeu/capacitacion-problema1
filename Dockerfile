@@ -1,4 +1,2 @@
-FROM node:10.10.0-slim
+FROM nginx:alpine
 COPY PREGUNTAS.MD /app/
-RUN ["ls" ,"/app"]
-RUN ["cat" ,"/app/PREGUNTAS.MD"]
