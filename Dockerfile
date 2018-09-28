@@ -1,3 +1,2 @@
-FROM nginx:alpine
+FROM node:10.10.0-slim
 COPY PREGUNTAS.MD /app/
-EXPOSE 1000

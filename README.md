@@ -8,3 +8,6 @@ docker run -p 1080:80 -it janetqu/orbis-training-docker:1.0.0
 Se creo el archivo dockr-compose.yml
 Para ejercutar el docker compose
 docker-compose -f ./docker-compose.yml up
+
+Volumear(Visualizar cambios en el container y viceversa)
+docker run -it --workdir /var/www/html  -v $PWD:/var/www/html janetqu/orbis-training-docker:2.0.0  npm install
