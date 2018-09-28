@@ -48,3 +48,32 @@ Integrantes:
 13. Comando para listar carpeta y mostrar contenido PREGUNTAS.MD
     Listar archivos de la carpeta "app": docker run -it janetqu/orbis-training-docker:0.2.0 ls /app
     Mostrar contnido del archivo "/app/PREGUNTAS.MD": docker run -it janetqu/orbis-training-docker:0.2.0 cat /app/PREGUNTAS.MD
+
+PARTE 5:
+
+1. ¿Cuál es la diferencia entre una imagen y un contenedor?
+    El contenedor es la instancia de la Imagen. La iagen es la plantilla.
+
+2. ¿Cómo listo las imágenes que hay en mi computadora?
+    docker images
+
+3. ¿Cómo salgo de un contenedor de docker?
+    Si estoy en la terminal con exit; y si no CTRL + c.
+
+4. ¿Se elimina el contenedor al salir de ella?
+    No, Queda en estado Exited.
+
+5. ¿Cómo elimino un contenedor?
+    docker rm -f id_container
+
+6. ¿Para qué es necesario el flag `-i`, `-t`, `--rm`?
+    i: Activa modo  interactivo.
+    t: Activa la consola TTY del contenedor
+    rm: Eliminar el contenedor cuando salgo de este.
+
+7. ¿Cómo verifico que el archivo creado se encuentra en la imagen?
+    Ingreso en el bash del container y verifico el archivo
+    Otro es correr con docker run poniendo al final la ruta a verificar
+
+8. ¿Cómo se comenta una linea de código en Dockerfile?
+    Con numeral "#".
