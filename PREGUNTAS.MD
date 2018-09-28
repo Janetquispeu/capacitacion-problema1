@@ -45,3 +45,6 @@ Integrantes:
 12. ¿Cuál es la diferencia entre docker ps y docker ps -a?
     El primero lista los procesos activos y el segundo lista los activos e inactivos.
 
+13. Comando para listar carpeta y mostrar contenido PREGUNTAS.MD
+    Listar archivos de la carpeta "app": docker run -it janetqu/orbis-training-docker:0.2.0 ls /app
+    Mostrar contnido del archivo "/app/PREGUNTAS.MD": docker run -it janetqu/orbis-training-docker:0.2.0 cat /app/PREGUNTAS.MD
