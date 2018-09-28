@@ -1,2 +1,3 @@
 FROM nginx:alpine
 COPY PREGUNTAS.MD /app/
+EXPOSE 1000

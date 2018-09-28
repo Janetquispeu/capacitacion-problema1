@@ -77,3 +77,17 @@ PARTE 5:
 
 8. ¿Cómo se comenta una linea de código en Dockerfile?
     Con numeral "#".
+
+PARTE 6:
+
+1. ¿Qué es NGINX?
+    Es un servidor web y tambien es usado proxy inverso.    
+
+2. ¿Cómo expongo puertos en docker?
+    EXPOSE 80
+
+3. ¿Cómo especifico los puertos al levantar un contenedor (docker run)?
+    docker run -p host:ports_image name_image
+
+4. ¿Cómo hago 'forward' al levantar un contenedor (docker run)?
+    -p host:ports_image
