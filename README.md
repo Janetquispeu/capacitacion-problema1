@@ -11,3 +11,5 @@ docker-compose -f ./docker-compose.yml up
 
 Volumear(Visualizar cambios en el container y viceversa)
 docker run -it --workdir /var/www/html  -v $PWD:/var/www/html janetqu/orbis-training-docker:2.0.0  npm install
+
+docker run -it -p 3030:3030 -p 35729:35729 --workdir /var/www/html -v $PWD:/var/www/html janetqu/orbis-training-docker:2.0.0 npm start
